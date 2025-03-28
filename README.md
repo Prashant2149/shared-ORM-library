@@ -25,7 +25,7 @@ shared-orm-library/
 ## 📌 Installation
 Clone the repository and install dependencies:
 ```sh
-git clone https://github.com/your-username/shared-orm-library.git
+git clone https://github.com/Prashant2149/shared-ORM-library.git
 cd shared-orm-library
 npm install
 ```
