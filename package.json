@@ -1,17 +1,14 @@
 {
   "name": "shared-orm-library",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/data-source.js",
-  "types": "dist/data-source.d.ts",
+  "description": "Shared ORM library for database entities and connection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "clean": "rm -rf dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@nestjs/typeorm": "^11.0.0",
     "dotenv": "^16.4.7",
@@ -19,7 +16,7 @@
     "typeorm": "^0.3.21"
   },
   "devDependencies": {
-    "@types/node": "^22.13.14",
-    "typescript": "^5.8.2"
+    "typescript": "^5.3.3",
+    "@types/node": "^20.9.0"
   }
 }
